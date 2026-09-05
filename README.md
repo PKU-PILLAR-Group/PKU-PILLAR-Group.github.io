@@ -32,13 +32,30 @@ related_posts: false
 
 The newest items appear on the home page and on the [news page](_pages/news.md).
 
+### Write a blog post
+
+Create a Markdown file in [`_posts/`](_posts/) named `YYYY-MM-DD-slug.md` with front matter like:
+
+```yaml
+---
+layout: post
+title: My Post Title
+date: 2026-09-05 09:00:00+0800
+description: one-line summary shown in the post list
+tags: [llm, reasoning]
+categories: tutorials
+---
+```
+
+Posts appear on the [blog page](_pages/blog.md) (`/blog/`), and the newest ones are listed on the home page under "Latest Posts". The blog title/description and the featured tags are configured in `_config.yml` (`blog_name`, `blog_description`, `display_tags`, `display_categories`).
+
 ### Edit people
 
 Members are listed on the people page via [`_pages/profiles.md`](_pages/profiles.md). Each entry has a `name`, a `group` (entries sharing the same group appear together under that heading), an `image` in `assets/img/` (currently the template's `prof_pic.jpg` placeholder — replace with real photos), and a short `description` (Markdown supported). To add a member, copy an existing profile block in `profiles.md`.
 
 ### Edit other pages
 
-Pages live in [`_pages/`](_pages/): `about.md` (home), `news.md`, `profiles.md` (people), `publications.md`, `join.md`. Site-wide settings (title, email, social links) are in [`_config.yml`](_config.yml).
+Pages live in [`_pages/`](_pages/): `about.md` (home), `news.md`, `profiles.md` (people), `publications.md`, `join.md`, `blog.md` (blog index). Site-wide settings (title, email, social links) are in [`_config.yml`](_config.yml).
 
 ## Build locally
 
