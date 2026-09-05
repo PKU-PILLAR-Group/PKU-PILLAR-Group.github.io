@@ -1,0 +1,60 @@
+/*******************************************************************************
+ * People page (card grid)
+ ******************************************************************************/
+
+.people-group {
+  margin-top: 1.5rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.person-card {
+  text-align: center;
+
+  figure {
+    margin: 0 auto 0.75rem;
+    width: 140px;
+  }
+
+  img.person-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.person-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.person-desc {
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+
+  p {
+    margin-bottom: 0.25rem;
+  }
+}
+
+// Featured card for the principal investigator
+.people-grid-principal-investigator {
+  grid-template-columns: minmax(220px, 340px);
+  justify-content: center;
+
+  .person-card figure,
+  .person-card img.person-photo {
+    width: 180px;
+    height: 180px;
+  }
+}

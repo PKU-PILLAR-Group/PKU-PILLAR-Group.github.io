@@ -1,48 +1,42 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
+title: People
 description: members of the PILLAR Group
 nav: true
 nav_order: 2
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/people/
-  - align: right
+  # group determines the section heading; members sharing a group are shown together
+  - name: "Prof. [Advisor Name]"
+    group: "Principal Investigator"
     image: prof_pic.jpg
-    content: people/pi.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Principal Investigator</p>
-  - align: left
+    description: >
+      Research interests: large language models, reasoning, LLM agents, multilingual NLP.
+      Email: [pillar@example.edu.cn](mailto:pillar@example.edu.cn)
+  - name: "[PhD Student One]"
+    group: "PhD Students"
     image: prof_pic.jpg
-    content: people/phd1.md
-    image_circular: false
-    more_info: >
-      <p>PhD student</p>
-  - align: right
+    description: >
+      PhD student (since 2023). Working on reasoning and planning with large language models.
+  - name: "[PhD Student Two]"
+    group: "PhD Students"
     image: prof_pic.jpg
-    content: people/phd2.md
-    image_circular: false
-    more_info: >
-      <p>PhD student</p>
-  - align: left
+    description: >
+      PhD student (since 2024). Working on LLM-based agents and tool use.
+  - name: "[PhD Student Three]"
+    group: "PhD Students"
     image: prof_pic.jpg
-    content: people/phd3.md
-    image_circular: false
-    more_info: >
-      <p>PhD student</p>
-  - align: right
+    description: >
+      PhD student (since 2024). Working on multilingual NLP and cross-lingual transfer.
+  - name: "[Master Student One]"
+    group: "Master & Undergraduate Students"
     image: prof_pic.jpg
-    content: people/master1.md
-    image_circular: false
-    more_info: >
-      <p>Master student</p>
-  - align: left
+    description: >
+      Master student (since 2025). Working on evaluation of large language models.
+  - name: "[Undergraduate Student One]"
+    group: "Master & Undergraduate Students"
     image: prof_pic.jpg
-    content: people/undergrad1.md
-    image_circular: false
-    more_info: >
-      <p>Undergraduate student</p>
+    description: >
+      Undergraduate student (since 2025). Working on data curation for instruction tuning.
 ---

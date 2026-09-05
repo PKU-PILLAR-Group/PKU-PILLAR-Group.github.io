@@ -34,7 +34,7 @@ The newest items appear on the home page and on the [news page](_pages/news.md).
 
 ### Edit people
 
-Members are listed on the people page via [`_pages/profiles.md`](_pages/profiles.md). Each entry points to a small Markdown bio in [`_pages/people/`](_pages/people/) and an image in `assets/img/` (currently the template's `prof_pic.jpg` placeholder — replace with real photos). To add a member, copy an existing profile block in `profiles.md` and create a matching file in `_pages/people/`.
+Members are listed on the people page via [`_pages/profiles.md`](_pages/profiles.md). Each entry has a `name`, a `group` (entries sharing the same group appear together under that heading), an `image` in `assets/img/` (currently the template's `prof_pic.jpg` placeholder — replace with real photos), and a short `description` (Markdown supported). To add a member, copy an existing profile block in `profiles.md`.
 
 ### Edit other pages
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /join/
-title: join us
+title: Join Us
 description: how to join the PILLAR Group
 nav: true
 nav_order: 4
