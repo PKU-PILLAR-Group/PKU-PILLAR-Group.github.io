@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://pku-pillar-group.github.io/sitemap.xml
