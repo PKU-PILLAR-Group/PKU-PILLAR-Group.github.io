@@ -25,4 +25,4 @@ A model that answers correctly may be reciting, not reasoning. Include adversari
 
 Final-answer agreement between chain-of-thought and direct answering can reveal when the rationale is post-hoc. Report both.
 
-*This is placeholder content — replace it with a real post.*
+_This is placeholder content — replace it with a real post._
